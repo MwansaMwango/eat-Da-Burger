@@ -8,7 +8,7 @@
         {{#each burgers}}
           {{#unless this.devoured}}
             <div>
-              <form action="/burgers/{{this.id}}?_method=PUT" method="POST ">
+              <form action="/burgers/{{this.id}}?_method=PUT" method="POST">
                 <button type="submit" class='pendingBurger'> {{this.burger_name}}</button>
               </form>
             </div>
@@ -36,9 +36,9 @@
 <div class="row">
   <div class="col-12 text-center">
     <form action="/burgers" method="POST">
-    <div>
+
       <input class= "w-10  form-control form-control-lg text-center"type="text" id="name" name="burger_name"  placeholder="Enter burger you wish to the craving list!" required>
-    </div>
+  
       <button type="submit" class="addBurgerBtn mt-2">Add Burger!</button>
     </form>
   </div>
