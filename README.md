@@ -1,6 +1,10 @@
 # eat-Da-Burger
 A burger logging app that lets users input the names of burgers they'd like to eat.
 
+
+## Deployment
+https://calm-caverns-36090.herokuapp.com/
+
 ## Usage
 
 * Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
