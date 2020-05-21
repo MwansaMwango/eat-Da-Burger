@@ -1,13 +1,13 @@
 {
-  "name": "mvc_design",
+  "name": "eat_da_burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "An applicatio that allows you to track the next burger to devour!",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Mwansa",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
