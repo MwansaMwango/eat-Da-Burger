@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  width: 70%;
+  width: 80%;
   margin: 0 auto; 
 
  display: flex;
@@ -18,6 +18,7 @@ body {
 #burgerId {
   display: block;
    margin: auto;
+   width: 40%;
 }
 
 h1 {
@@ -34,7 +35,7 @@ h2 {
 
 .pendingBurger {
   font-weight: normal;
-  font-size: 20px;
+  font-size: 2rem;
   text-align: center;
 
   border-radius: 25px;
@@ -52,7 +53,7 @@ h2 {
 
 .devouredBurger {
   font-weight: normal;
-  font-size: 20px;
+  font-size: 2rem;
   text-align: center;
 
   border-radius: 25px;
@@ -67,7 +68,7 @@ h2 {
 
 .addBurgerBtn {
   font-weight: normal;
-  font-size: 20px;
+  font-size: 2rem;
   text-align: center;
 
   border-radius: 20px;
