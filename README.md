@@ -11,9 +11,9 @@ https://calm-caverns-36090.herokuapp.com/
 
 * Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
 
-* Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
+* Each burger in the waiting area on the left. When the user clicks it, the burger will be appended to the right side of the page.
 
-* Your app will store every burger in a database, whether devoured or not.
+* Your app will store every burger in a database, whether devoured or not. Enforced the a delete override.
 
 ## Demo
 
@@ -23,7 +23,7 @@ https://calm-caverns-36090.herokuapp.com/
 
 #### App Setup
 
-1. Create a GitHub repo called `burger` and clone it to your computer.
+1. Create a GitHub repo called `eat-Da-Burger` and clone it to your computer.
 
 2. Make a package.json file by running `npm init` from the command line.
 
@@ -40,7 +40,7 @@ https://calm-caverns-36090.herokuapp.com/
 
 #### DB Setup
 
-1. Inside your `burger` directory, create a folder named `db`.
+1. Inside your `eat-Da-Burger` directory, create a folder named `db`.
 
 2. In the `db` folder, create a file named `schema.sql`. Write SQL queries this file that do the following:
 
@@ -69,7 +69,7 @@ https://calm-caverns-36090.herokuapp.com/
 
 #### Config Setup
 
-1. Inside your `burger` directory, create a folder named `config`.
+1. Inside your `eat-Da-Burger` directory, create a folder named `config`.
 
 2. Create a `connection.js` file inside `config` directory.
 
@@ -103,7 +103,7 @@ https://calm-caverns-36090.herokuapp.com/
 
 #### Controller setup
 
-1. Inside your `burger` directory, create a folder named `controllers`.
+1. Inside your `eat-Da-Burger` directory, create a folder named `controllers`.
 
 2. In `controllers`, create the `burgers_controller.js` file.
 
